@@ -37,6 +37,21 @@ newHeader.id = 'victory'
 newHeader.innerHTML = 'SOMEBODY is the champion'
 document.body.appendChild(newHeader)
 
+//
+s = document.createElement('span')
+s.id = 'cat'
+s.textContent = 'new one'
+
+
+item = document.createElement('li')
+item.appendChild(s)
+
+document.getElementsByTagName('li')[0].parentNode.appendChild(item)
+
+console.log(document.querySelector('#mongoose').textContent)
+
+document.querySelector('body').innerHTML = "changeeeed!"
+
 
 
 
