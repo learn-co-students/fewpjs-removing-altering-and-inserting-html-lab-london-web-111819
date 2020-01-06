@@ -72,5 +72,12 @@ basriul.appendChild(temp1)
 main2.appendChild(basriul)
 
 let theArray = document.getElementsByClassName('class-li-type-1');
-basriul.id = 'ul-id-type-1'
-theArray[2].textContent = 'I changed this!'
+basriul.id = 'ul-id-type-1';
+theArray[2].textContent = 'I changed this!';
+
+let para1=document.createElement('p')
+let newone = document.body.appendChild(para1);
+// debugger;
+newone.id = 'newone-id';
+newone.className = 'newone-clasName';
+theArray[2].textContent = 'I changed this! again ';
